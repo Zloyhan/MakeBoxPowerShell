@@ -1,4 +1,4 @@
- 📦 MakeBox Project Tools for Microsoft PowerShell
+## 📦 MakeBox Project Tools for Microsoft PowerShell
 
  What is MakeBox?
 
@@ -6,9 +6,9 @@
 
 Not everyone wants to deal with complex, hard-to-set-up AI tools, type lengthy console commands, or manually compile and set up your environment every time you sit down to code. MakeBox provides a collection of straightforward PowerShell commands that make your development environment **casual and easy**. Work faster, code more, setup less.
 
-✨ Features
+## ✨ Features
 
-MkBox comes with a handful of useful commands. These commands mainly provide the following functionality:
+MakeBox comes with a handful of useful commands. These commands mainly provide the following functionality:
 
 - **Workspace Initialisation** - Set up and manage your workspace environment quickly
 - **Quick File and Folder Creation** - Create empty files and folders instantly, or generate pre-configured files and project folders from templates
@@ -16,10 +16,10 @@ MkBox comes with a handful of useful commands. These commands mainly provide the
 - **Basic File Operations** - Copy, create directories, and create files with simple commands
 - **Safe Operations** - Built-in validation and safety checks protect your workspace from accidental mistakes
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 [Read the Getting Started Guide](docs/GETTING_STARTED.md) to learn how to install and start using MakeBox.
 
-📚 Documentation
+## 📚 Documentation
 
 [View the full documentation](docs/DOCUMENTATION.md) for all commands and details.
