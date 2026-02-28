@@ -1,4 +1,7 @@
 ## 📦 MakeBox Project Tools for Microsoft PowerShell
+![Static Badge](https://img.shields.io/badge/%F0%9F%93%A6-MakeBox-orange?logo=powershell)  ![Static Badge](https://img.shields.io/badge/v1.3.10-Early%20Access-green)  ![Static Badge](https://img.shields.io/badge/Powershell-blue)
+
+
 
  What is MakeBox?
 
