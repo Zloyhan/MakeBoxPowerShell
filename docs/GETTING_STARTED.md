@@ -99,4 +99,34 @@ mkls
 
 This prints your current templates in a tree format so you can quickly see what is available.
 
+## ✅ First-Run Verification and Common Issues
+
+After completing the quick start, it is recommended to run the checks below:
+
+```powershell
+mkbox
+mkhelp
+mkroot
+```
+
+Expected outcome:
+- `mkbox` prints module info and usage direction.
+- `mkhelp` prints available commands.
+- `mkroot` confirms workspace root location when run inside your initialized workspace.
+
+If something does not work:
+- Re-import the module in a clean terminal session:
+  ```powershell
+  Remove-Module MakeBox -ErrorAction SilentlyContinue
+  Import-Module MakeBox -Force
+  ```
+- Confirm your module path contains the `MakeBox` folder:
+  ```powershell
+  $env:PSModulePath -split ';'
+  ```
+- Confirm you are using PowerShell 7.5+:
+  ```powershell
+  $PSVersionTable.PSVersion
+  ```
+
 For further assistance, please refer to the documentation or community forums.
